@@ -13,9 +13,11 @@ function corrigirHorario(numero){
         numero = '0' + numero;
     }
     return numero;
+
 }
 
 atualizarTempo();
 setInterval(atualizarTempo, 1000);
 
 console.log(horario);
+//end
